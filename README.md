@@ -1,2 +1,2 @@
 # docker-vgnc-httpd
-Apache webserver as used in the VGNC
+Apache webserver as used in the VGNC test
