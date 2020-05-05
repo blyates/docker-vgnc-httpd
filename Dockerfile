@@ -34,5 +34,4 @@ EXPOSE 80
 # This here does the magic and starts your service
 CMD ["/usr/sbin/init"]
 
-# test build
 WORKDIR /var/www/
