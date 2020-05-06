@@ -34,8 +34,9 @@ curl -L http://cpanmin.us | perl - App::cpanminus
 
 echo "Include /var/www/conf.d/*.conf" >> /etc/httpd/conf/httpd.conf
 
-wget https://anorien.csc.warwick.ac.uk/mirrors/epel//7/x86_64/Packages/e/epel-release-7-11.noarch.rpm
-rpm -ivh epel-release-7-11.noarch.rpm
+#wget https://anorien.csc.warwick.ac.uk/mirrors/epel//7/x86_64/Packages/e/epel-release-7-11.noarch.rpm
+yum -y install epel-release
+#rpm -ivh epel-release-7-11.noarch.rpm
 yum -y install mod_perl
 yum -y install mod_perl-devel
 cpanm -n Apache2::Request
